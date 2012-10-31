@@ -1,0 +1,321 @@
+.header{
+    min-height: 20px;
+    height: auto;
+}
+
+.header .f-breadcrumbs{
+    margin-bottom: 0;
+}
+
+.sidebar{
+    min-height: 500px;
+}
+
+.content{
+    margin-top: 0;
+    min-height: 500px;
+}
+
+.content-right{
+    min-height: 500px;
+}
+
+.view-edit FIELDSET{
+
+}
+
+.view-edit FIELDSET LABEL{
+    display: block;
+}
+
+.view-edit FIELDSET .edit{
+    clear: both;
+    float:left;
+}
+
+.footer{
+    margin-top: 0;
+}
+
+.gray{
+    background: #DDD;
+}
+
+.p5px{
+    padding: 5px;
+}
+
+.clear-both{
+    clear: both;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.hidden{
+    display: none;
+}
+
+.view-edit-tabs{
+
+}
+
+.view-edit-tabs .tab-header{
+
+}
+
+.view-edit-tabs .tab-header-disable{
+    opacity: 0.5;
+}
+
+
+
+.view-edit .el-rte,
+.view-edit .editor{
+    clear: both;
+}
+
+.view-edit label{
+    padding-right: 5px;
+}
+
+.view-edit .viewedit-item-image{
+}
+
+.view-edit .viewedit-item-image .viewedit-item-image-a{
+    /*cursor: all-scroll;*/
+    /*cursor: crosshair;*/
+}
+
+.view-edit .viewedit-item-image .viewedit-item-image-a .viewedit-item-image-a-icon{
+    width:100px;
+    height:100px;
+    /*background: #F00;*/
+    position: absolute;
+    display: none;
+}
+
+.view-edit .viewedit-item-image .viewedit-item-image-a-cursor-zoom-in{
+    cursor:  url("../i/cursor-zoom-in.png"), url("/admin/i/cursor-zoom-in.png"), url("cursor-zoom-in.png"), url("../i/cursor-zoom-in.cur"), url("/admin/i/cursor-zoom-in.cur"), url("cursor-zoom-in.cur"), pointer;
+    /*cursor:  url(cursor-zoom-in.png), url(cursor-zoom-in.cur), pointer;*/
+}
+
+.view-edit .viewedit-item-image .viewedit-item-image-a-cursor-zoom-out{
+    cursor: url("../i/cursor-zoom-out.png"), url("/admin/i/cursor-zoom-out.png"), url("cursor-zoom-out.png"), url("../i/cursor-zoom-out.cur"), url("/admin/i/cursor-zoom-out.cur"), url("cursor-zoom-out.cur"), pointer;
+    /*cursor: url(cursor-zoom-out.png), url(cursor-zoom-out.cur),  pointer;*/
+}
+
+
+.view-edit .viewedit-item-image .viewedit-item-image-img{
+    /*background: #F00;*/
+}
+
+.view-edit .viewedit-item-image .viewedit-item-image-img-wh{
+    max-width: 630px;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.view-edit .view-edit-tab .f-row{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+.view-edit .view-edit-tab HR{
+    height: 1px;
+    margin-bottom: 5px;
+    /*margin-top: -2px;*/
+}
+
+.view-edit .view-edit-tab .f-row select,
+.view-edit .view-edit-tab .f-row input[type='text'],
+.view-edit .view-edit-tab .f-row input[type='password']{
+
+    height: 26px;
+}
+
+.view-edit-list{
+
+}
+
+
+
+.view-edit-list .view-edit-list-controls{
+    background: #EEE;
+    height: 20px;
+    width: auto;
+}
+
+.view-edit-list .view-edit-list-controls .control{
+    cursor: pointer;
+    margin: 2px  5px 0 5px;
+}
+
+.view-edit-list .view-edit-list-ul{
+    margin:5px 0 0 0;
+    padding:0;
+}
+
+.view-edit-list .view-edit-list-ul ul{
+    margin:0;
+    padding:0;
+}
+
+
+.view-edit-list-li{
+    padding:0;
+    height: auto;
+    margin:0;
+    list-style: none;
+}
+
+.view-edit-list-li .item{
+    display: block;
+    padding:3px;
+    margin:0;
+}
+
+.view-edit-list-li .item-odd{
+    background: #F5F5FF;
+}
+
+.view-edit-list-li .item:hover{
+    background: #D0FFD0;
+}
+
+.view-edit-list-li .info{
+    float: left;
+    margin-top:-3px;
+}
+
+.view-edit-list-li .info .subinfo{
+    font-size: 0.8em;
+}
+
+.view-edit-list-li .info .subinfo-item{
+    padding-right: 20px;
+}
+
+.view-edit-list-li .info .subinfo .subinfo-item .title{
+    font-weight: bold;
+}
+
+.view-edit-list-li .vieweditlist-subinfo-item-image-span{
+}
+
+.view-edit-list-li .vieweditlist-subinfo-item-image-img{
+    vertical-align: top;
+
+}
+
+.view-edit-list-li .vieweditlist-subinfo-item-image-a .vieweditlist-subinfo-item-image-a-icon{
+    width:100px;
+    height:100px;
+    /*background: #F00;*/
+    position: absolute;
+    display: none;
+}
+
+.view-edit-list-li .vieweditlist-subinfo-item-image-a-cursor-zoom-in{
+    cursor:  url("../i/cursor-zoom-in.png"), url("/admin/i/cursor-zoom-in.png"), url("cursor-zoom-in.png"), url("../i/cursor-zoom-in.cur"), url("/admin/i/cursor-zoom-in.cur"), url("cursor-zoom-in.cur"), pointer;
+    /*cursor:  url(cursor-zoom-in.png), url(cursor-zoom-in.cur), pointer;*/
+}
+
+.view-edit-list-li .vieweditlist-subinfo-item-image-a-cursor-zoom-out{
+    cursor: url("../i/cursor-zoom-out.png"), url("/admin/i/cursor-zoom-out.png"), url("cursor-zoom-out.png"), url("../i/cursor-zoom-out.cur"), url("/admin/i/cursor-zoom-out.cur"), url("cursor-zoom-out.cur"), pointer;
+    /*cursor: url(cursor-zoom-out.png), url(cursor-zoom-out.cur),  pointer;*/
+}
+
+
+.view-edit-list-li .vieweditlist-subinfo-item-image-img-wh{
+    max-width: 120px;
+    max-height: 80px;
+    overflow: hidden;
+}
+
+.view-edit-list-li .action{
+    float: right;
+    margin-top: -3px;
+}
+
+.view-edit-list-li .action a{
+    color:#268bd2;
+    display: block;
+    float:left;
+    margin-left:5px;
+}
+.view-edit-list-li .action a:visited{
+    color:#16527c;
+}
+.view-edit-list-li .action a:hover{
+    color:#1e6ea7;
+}
+.view-edit-list-li .action a:active{
+    outline-width: medium;
+    outline-style: none;
+    outline-color: invert;
+}
+
+
+.navigation-pager{
+    margin-top:1px;
+    margin-bottom: 1px;
+}
+
+.box{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box .box-header{
+    margin: 2px;
+}
+
+.box .box-header A.box-button{
+    cursor: pointer;
+}
+
+.box .box-header A.box-button .box-icon{
+   float:left;
+}
+
+.box .box-content{
+    margin:10px;
+}
+
+.h1{
+    height: 1px;
+}
+.h2{
+    height: 2px;
+}
+.h3{
+    height: 3px;
+}
+.h5{
+    height: 5px;
+}
+.h10{
+    height: 10px;
+}
+
+.m5{
+    margin: 5px;
+}
+.m10{
+    margin: 10px;
+}
+
+
+.p5{
+    padding: 5px;
+}
+.p10{
+    padding: 10px;
+}
