@@ -171,6 +171,6 @@ boxes/
 documentation/
 files/
 html/
-installer/
+#installer/
 pictures/
 pictures_flash/

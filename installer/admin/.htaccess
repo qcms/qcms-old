@@ -1,0 +1,18 @@
+DirectoryIndex index.php index.html 404.php
+
+ErrorDocument 404 /installer/admin/404.php
+
+<IfModule mod_rewrite.c>
+  Options +FollowSymLinks
+  RewriteEngine On
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-l
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !/installer/admin/404.php$
+  RewriteRule ^(.*)$ /installer/admin/404.php [L]
+  RewriteRule .* - [E=REMOTE_USER:%{HTTP:Authorization}]
+</IfModule>
+
+
+php_value post_max_size 200M
+php_value upload_max_filesize 200M
